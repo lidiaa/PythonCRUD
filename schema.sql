@@ -9,10 +9,10 @@ USE python_crud;
 
 
 CREATE TABLE paises(
-	id_pais int unsigned not null auto_increment,
-    nome_pais varchar(45) not null,
-	qtd_titulos int unsigned not null,
-    PRIMARY KEY (id_pais)
+   id_pais int unsigned not null auto_increment,
+   nome_pais varchar(45) not null,
+   qtd_titulos int unsigned not null,
+   PRIMARY KEY (id_pais)
 );
 
 
